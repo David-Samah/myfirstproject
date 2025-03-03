@@ -72,6 +72,12 @@ header{
         font-family: var(--header-font);
         font-size:56px;
     }
+
+    @keyframes .paragraph {
+        from {top:0px;}
+        to{top: 200px;}
+        
+    }
     
           
                  
@@ -126,4 +132,8 @@ align-items:end;
 footer{
     background-color:gray;
     padding:25px;
+}
+
+.instagram{
+    color:purple;
 }
